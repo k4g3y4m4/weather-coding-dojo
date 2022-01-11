@@ -12,7 +12,7 @@ let listeners = () =>{
     });
 
     let typeTemperature = document.querySelector('#type-temperature');
-    typeTemperature.value == 'c';
+    typeTemperature.value = 'c';
     typeTemperature.addEventListener('change', () => {
         if(typeTemperature.value == 'f'){
             let temperatures = document.querySelectorAll('.temperatures');
