@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">DojoWeather</h1>
+        <a href="#" class="city">Burbank</a>
+        <a href="#" class="city">Chicago</a>
+        <a href="#" class="city">Dallas</a>
+    </div>
+    <div class="weather-header">
+        <div class="weather-city">
+            San Jose
+        </div>
+        <div class="weather-temperature">
+            Show temperature in 
+            <select id="type-temperature">
+                <option value="f">°F</option>
+                <option value="c">°C</option>
+            </select>
+        </div>
+    </div>
+    <div class="weather-info">
+       <div class="row">            
+            <div class="column">
+                <div class="container">
+                    <div class="container-body">
+                        <div class="day-name">
+                            <h3>Today</h3>
+                        </div>
+                        <div class="day-icon">
+                            <img src="./assets/some_rain.png" class="icon-weather"alt="some-rain">
+                        </div>
+                        <div class="day-info">
+                            some rain
+                        </div>
+                        <div class="row temperatures">
+                            <div class="column max-temperature">
+                                24
+                            </div>
+                
+                            <div class="column min-temperature">
+                                18
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <div class="container-body">
+                        <div class="day-name">
+                            <h3>Tomorrow</h3>
+                        </div>
+                        <div class="day-icon">
+                            <img src="./assets/some_sun.png" class="icon-weather" alt="some-sun">
+                        </div>
+                        <div class="day-info">
+                            some sun
+                        </div>
+                        <div class="row temperatures">
+                            <div class="column max-temperature">
+                                27
+                            </div>
+                            <div class="column min-temperature">
+                                19
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <div class="container-body">
+                        <div class="day-name">
+                            <h3>Friday</h3>
+                        </div>
+                        <div class="day-icon">
+                            <img src="./assets/some_clouds.png" class="icon-weather" alt="some-clouds">
+                        </div>
+                        <div class="day-info">
+                            some clouds
+                        </div>
+                        <div class="row temperatures">
+                            <div class="column max-temperature">
+                                21
+                            </div>
+                            <div class="column min-temperature">
+                                16
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <div class="container-body">
+                        <div class="day-name">
+                            <h3>Saturday</h3>
+                        </div>
+                        <div class="day-icon">
+                            <img src="./assets/some_sun.png" class="icon-weather" alt="some-sun">
+                        </div>
+                        <div class="day-info">
+                            some sun
+                        </div>
+                        <div class="row temperatures">
+                            <div class="column max-temperature">
+                                26
+                            </div>
+                            <div class="column min-temperature">
+                                21
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- end of row -->     
+    </div>
+    <div class="cookie-message" id="cookie">
+        <div class="row">
+            <img src="./assets/cookie.png" class="cookie-image" alt="cookie">
+            <div class="message">
+                <span class="header-message">
+                    Stop! Cookie Time
+                </span>
+                <p>
+                    We use cookies (sadly not the edible ones) to personalize content and ads, to provide social features and to analyze our traffic. <a href="#">Read more...</a>
+                </p>
+            </div>
+            <button class="accept-cookie">
+                I Accept
+            </button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
